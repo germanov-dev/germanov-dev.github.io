@@ -408,9 +408,14 @@ a {
 	padding: 0;
 }
 
-a {
+.socials a {
 	text-decoration: none;
 	font-size: 2rem;
+	transition: color .4s;
+}
+
+.socials a:hover {
+	color: #7CFC00;
 }
 
 .socials li + li {
