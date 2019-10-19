@@ -251,7 +251,6 @@ a {
 	display: inline-block;
 	position: absolute;
 	top: 0;
-	right: -5rem;
 	animation: blink .5s infinite ease;
 }
 
