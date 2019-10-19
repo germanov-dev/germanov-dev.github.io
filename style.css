@@ -206,6 +206,11 @@ a {
 
 .wrapper {
 	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	width: 100%;
+	max-width: 100%
 }
 
 /* ------------------------------------------------------------ *\
@@ -246,7 +251,7 @@ a {
 	content: '|';
 	position: absolute;
 	top: 0;
-	right: -50px;
+	right: -5rem;
 	animation: blink .5s infinite ease;
 }
 
@@ -260,6 +265,12 @@ a {
 	}
 }
 
+@media(max-width: 1023px){
+	.intro h1 {
+		font-size: 3rem;
+	}
+}
+
 /* ------------------------------------------------------------ *\
 	Container
 \* ------------------------------------------------------------ */
@@ -268,6 +279,7 @@ a {
 	width: 100%;
 	max-width: 1200px;
 	padding: 0 20px;
+	margin: 0 auto;
 }
 
 /* ------------------------------------------------------------ *\
@@ -401,6 +413,7 @@ a {
 	padding: 10px 0;
 	background: #000;
 	color: #fff;
+	margin-top: auto;
 }
 
 .footer h4 {
